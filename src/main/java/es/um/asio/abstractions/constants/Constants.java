@@ -1,4 +1,4 @@
-package es.um.asio.abstractions;
+package es.um.asio.abstractions.constants;
 
 /**
  * The Class Constants.
