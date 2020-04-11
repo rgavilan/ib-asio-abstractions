@@ -14,7 +14,15 @@
 	<description>Asio - abstractions</description>
 
 	<scm>
-		<url>https://git.izertis.com/universidaddemurcia/semantmurc/asio-abstractions</url>		     
+		<url>https://git.izertis.com/universidaddemurcia/semantmurc/asio-abstractions</url>
 	</scm>
-	
+
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
 </project>
