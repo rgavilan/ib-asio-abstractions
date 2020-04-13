@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>es.um.asio</groupId>
 	<artifactId>asio-abstractions</artifactId>
+	<version>1.0-SNAPSHOT</version>
 	<name>Asio - abstractions</name>
 	<description>Asio - abstractions</description>
 
