@@ -12,11 +12,9 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-// ** @JsonIgnoreProperties(ignoreUnknown=true)
-public class ManagementBusEvent<Model> {
+public class ManagementBusEvent {
 
-	// ** @JsonIgnoreProperties(ignoreUnknown=true)
-	private Model model;
+	private String model;
 	
 	private Operation operation;
 }
