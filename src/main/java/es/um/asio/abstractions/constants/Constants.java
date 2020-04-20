@@ -1,35 +1,68 @@
 package es.um.asio.abstractions.constants;
 
+// TODO: Auto-generated Javadoc
 /**
  * The Class Constants.
  */
 public final class Constants {
 		
-	/** The Constant ROOT_URI. */
-	public static final String ROOT_URI = "http://example.org";
+	/** The Constant CANONICAL_CLASS. */
+	public static final String CANONICAL_CLASS = "canonicalClass";
 	
-	/** The Constant OBJECT. */
-	public static final String OBJECT = "object";
+	/** The Constant CANONICAL_CLASS_NAME. */
+	public static final String CANONICAL_CLASS_NAME = "canonicalClassName";
 	
-	/** The Constant PROPERTY. */
-	public static final String PROPERTY = "property";
+	/** The Constant CANONICAL_LANGUAGE_URI. */
+	public static final String CANONICAL_LANGUAGE_URI = "canonicalLanguageURI";
 		
-	/** The Constant CLASS_NAME. */
-	public static final String CLASS_NAME = "className";
+	/** The Constant CANONICAL_PROPERTY. */
+	public static final String CANONICAL_PROPERTY = "canonicalProperty";
 	
-	/** The Constant RESOURCE_ID. */
-	public static final String RESOURCE_ID = "resourceID";
+	/** The Constant CANONICAL_URI. */
+	public static final String CANONICAL_URI = "canonicalURI";
+	
+	/** The Constant CLASS_NAME. */
+	public static final String CLASS = "@class";
+	
+	/** The Constant DOMAIN. */
+	public static final String DOMAIN = "domain";
+		
+	/** The Constant DOMAIN_VALUE. */
+	public static final String DOMAIN_VALUE = "hercules.org";
+		
+	/** The Constant ENGLISH_LANGUAGE. */
+	public static final String ENGLISH_LANGUAGE = "en-EN";
+	
+	/** The Constant LANG. */
+	public static final String LANG = "lang";
 	
 	/** The Constant LANGUAGE. */
 	public static final String LANGUAGE = "language";
 	
-	/** The Constant UNIVERSITY. */
-	public static final String UNIVERSITY = "university";
+	/** The Constant OBJECT. */
+	public static final String OBJECT = "obj";
+	
+	/** The Constant PROPERTY. */
+	public static final String PROPERTY = "property";
+	
+	/** The Constant RESOURCE_ID. */
+	public static final String RESOURCE_ID = "resourceID";
+	
+	/** The Constant ROOT_URI. */
+	public static final String ROOT_URI = "http://" + Constants.DOMAIN_VALUE;
 	
 	/** The Constant SPANISH_LANGUAGE. */
-	public static final String SPANISH_LANGUAGE = "es";
+	public static final String SPANISH_LANGUAGE = "es-ES";
 	
-	/** The Constant MURCIA_UNIVERSITY. */
-	public static final String MURCIA_UNIVERSITY ="https://www.um.es";
+	/** The Constant SUBDOMAIN. */
+	public static final String SUBDOMAIN = "subDomain";
+	
+	/** The Constant SUBDOMAIN_VALUE. */
+	public static final String SUBDOMAIN_VALUE = "um";
+	
+	/** The Constant TYPE_REST. */
+	public static final String TYPE_REST = "res";
+	
+	
 	
 }
