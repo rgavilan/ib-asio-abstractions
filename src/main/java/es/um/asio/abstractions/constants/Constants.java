@@ -33,6 +33,12 @@ public final class Constants {
 	/** The Constant ENGLISH_LANGUAGE. */
 	public static final String ENGLISH_LANGUAGE = "en-EN";
 	
+	/** The Constant ENTITY_ID. */
+	public static final String ENTITY_ID = "entityId";
+	
+	/** The Constant ID. */
+	public static final String ID = "id";
+	
 	/** The Constant LANG. */
 	public static final String LANG = "lang";
 	
@@ -44,10 +50,7 @@ public final class Constants {
 	
 	/** The Constant PROPERTY. */
 	public static final String PROPERTY = "property";
-	
-	/** The Constant RESOURCE_ID. */
-	public static final String RESOURCE_ID = "resourceID";
-	
+			
 	/** The Constant ROOT_URI. */
 	public static final String ROOT_URI = "http://" + Constants.DOMAIN_VALUE;
 	
