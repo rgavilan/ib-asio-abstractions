@@ -14,7 +14,9 @@ import lombok.ToString;
 @ToString
 public class ManagementBusEvent {
 
-	private String model;
+	private String idModel;
 	
+	private String model;
+		
 	private Operation operation;
 }
