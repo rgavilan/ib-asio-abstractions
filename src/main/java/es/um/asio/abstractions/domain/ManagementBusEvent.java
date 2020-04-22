@@ -17,6 +17,8 @@ public class ManagementBusEvent {
 	private String idModel;
 	
 	private String model;
+	
+	private String className;
 		
 	private Operation operation;
 }
