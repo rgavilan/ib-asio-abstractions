@@ -11,11 +11,11 @@
 	<groupId>es.um.asio</groupId>
 	<artifactId>asio-abstractions</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<name>Asio - abstractions</name>
-	<description>Asio - abstractions</description>
+	<name>UM - ASIO - asio-abstractions</name>
+	<description>UM - ASIO - asio-abstractions</description>
 
 	<scm>
-		<url>https://git.izertis.com/universidaddemurcia/semantmurc/asio-abstractions</url>
+		<url>scm:git:https://github.com/HerculesCRUE/ib-asio-abstractions.git</url>
 	</scm>
 
 	<dependencies>
