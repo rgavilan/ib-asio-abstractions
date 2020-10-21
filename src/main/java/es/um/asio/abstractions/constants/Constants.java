@@ -24,6 +24,9 @@ public final class Constants {
 	/** The Constant CLASS_NAME. */
 	public static final String CLASS = "@class";
 	
+	/** The Constant CLASE. */
+	public static final String CLASE = "clase";
+	
 	/** The Constant DOMAIN. */
 	public static final String DOMAIN = "domain";
 		
