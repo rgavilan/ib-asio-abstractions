@@ -18,7 +18,7 @@ public class ManagementBusEvent {
 	
 	private String model;
 	
-	private String linkedModel;
+	private Object linkedModel;
 	
 	private String className;
 		

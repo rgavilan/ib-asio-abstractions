@@ -14,6 +14,12 @@ public final class Constants {
 	
 	/** The Constant CANONICAL_LANGUAGE_URI. */
 	public static final String CANONICAL_LANGUAGE_URI = "canonicalLanguageURI";
+	
+	/** The Constant LOCAL_URIS. */
+	public static final String LOCAL_URIS = "localURIS";
+	
+	/** The Constant LOCAL_URI. */
+	public static final String LOCAL_URI = "localUri";
 		
 	/** The Constant CANONICAL_PROPERTY. */
 	public static final String CANONICAL_PROPERTY = "canonicalProperty";
@@ -68,6 +74,15 @@ public final class Constants {
 	
 	/** The Constant TYPE_REST. */
 	public static final String TYPE_REST = "res";
+	
+	/** The Constant TYPE_CODE. */
+	public static final String TYPE_CODE = "typeCode";
+	
+	/** The Constant STORAGE_NAME. */
+	public static final String STORAGE_NAME = "storageName";
+	
+	/** The Constant REFERENCE. */
+	public static final String REFERENCE = "reference";
 	
 	
 	
