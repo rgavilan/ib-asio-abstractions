@@ -85,5 +85,9 @@ public final class Constants {
 	public static final String REFERENCE = "reference";
 	
 	
+	/** The Constant LINKED_TO. */
+	public static final String LINKED_TO = "linkedTo";
+	
+	
 	
 }
