@@ -93,6 +93,21 @@ public final class Constants {
 	/** The Constant WIKIBASE. */
 	public static final String WIKIBASE = "wikibase";
 	
+	/**
+	 * The Constant POJO_LINK_FACTORY
+	 */
+	public static final String  POJO_LINK_FACTORY= "pojoLinkKafkaListenerContainerFactory";
 	
+	/**
+	 * The Constant POJO_FACTORY
+	 */
+	public static final String  POJO_FACTORY= "pojoKafkaListenerContainerFactory";
 	
+	public final static String START_PLAIN = "START-PLAIN-OBJECTS";
+	
+	public final static String END_PLAIN = "END-PLAIN-OBJECTS";
+	
+	public final static String START_LINK_PLAIN = "START-LINK-OBJECTS";
+	
+	public final static String END_LINK_PLAIN = "END-LINK-OBJECTS";
 }
