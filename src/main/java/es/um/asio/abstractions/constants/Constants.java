@@ -50,6 +50,8 @@ public final class Constants {
 	/** The Constant LINKED_TO. */
 	public static final String LINKED_TO = "linkedTo";
 	
+	public static final String LINKED_MODEL = "linkedModel";
+	
 	/** The Constant LOCAL_URI. */
 	public static final String LOCAL_URI = "localURI";
 	
