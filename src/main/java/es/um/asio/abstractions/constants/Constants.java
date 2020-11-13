@@ -11,6 +11,9 @@ public final class Constants {
 	/** The Constant CACHE_PROPERTIES. */
 	public static final String CACHE_PROPERTIES = "cacheProperties";
 	
+	/** The Constant CACHE_TRELLIS_CONTAINER. */
+	public static final String CACHE_TRELLIS_CONTAINER = "cacheTrellisContainer";
+	
 	/** The Constant CANONICAL_CLASS. */
 	public static final String CANONICAL_CLASS = "canonicalClass";
 	
