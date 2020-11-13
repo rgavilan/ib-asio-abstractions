@@ -107,11 +107,38 @@ public final class Constants {
 	 */
 	public static final String  POJO_FACTORY= "pojoKafkaListenerContainerFactory";
 	
+	/**
+	 * The Constant START_PLAIN
+	 */
 	public final static String START_PLAIN = "START-PLAIN-OBJECTS";
 	
+	/**
+	 * The Constant END_PLAIN
+	 */
 	public final static String END_PLAIN = "END-PLAIN-OBJECTS";
 	
+	/**
+	 * The Constant START_LINK_PLAIN
+	 */
 	public final static String START_LINK_PLAIN = "START-LINK-OBJECTS";
 	
+	/**
+	 * The Constant END_LINK_PLAIN
+	 */
 	public final static String END_LINK_PLAIN = "END-LINK-OBJECTS";
+
+	/**
+	 * The Constant KO
+	 */
+	public static final String KO = "KO";
+	
+	/**
+	 * The Constant MANAGEMENT_SYSTEM_BUSY
+	 */
+	public static final String MANAGEMENT_SYSTEM_BUSY = "No se ha podido realizar la importación, management system en uso por la ETL";
+	
+	/**
+	 * The Constant OK
+	 */
+	public static final String OK = "OK";
 }
