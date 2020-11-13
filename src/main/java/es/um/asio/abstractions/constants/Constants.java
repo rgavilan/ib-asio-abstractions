@@ -55,6 +55,8 @@ public final class Constants {
 	/** The Constant LOCAL_URI. */
 	public static final String LOCAL_URI = "localURI";
 	
+	public static final String LOCAL_Uri = "localUri";
+	
 	/** The Constant LOCAL_URIS. */
 	public static final String LOCAL_URIS = "localURIS";
 	
