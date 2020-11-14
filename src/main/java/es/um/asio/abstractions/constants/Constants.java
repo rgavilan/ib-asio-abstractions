@@ -14,6 +14,9 @@ public final class Constants {
 	/** The Constant CACHE_TRELLIS_CONTAINER. */
 	public static final String CACHE_TRELLIS_CONTAINER = "cacheTrellisContainer";
 	
+	/** The Constant CACHE_CANONICAL_LOCAL_URIS. */
+	public static final String CACHE_CANONICAL_LOCAL_URIS = "cacheCanonicalLocalUris";
+	
 	/** The Constant CANONICAL_CLASS. */
 	public static final String CANONICAL_CLASS = "canonicalClass";
 	
@@ -150,4 +153,7 @@ public final class Constants {
 	
 	/** The Constant WIKIBASE. */
 	public static final String WIKIBASE = "wikibase";
+	
+	/** The Constant CANONICAL_URI_LANGUAGE_STR. */
+	public static final String CANONICAL_URI_LANGUAGE_STR = "canonicalURILanguageStr";
 }
