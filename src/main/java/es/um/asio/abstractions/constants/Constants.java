@@ -123,6 +123,9 @@ public final class Constants {
 	/** The Constant SPANISH_LANGUAGE. */
 	public static final String SPANISH_LANGUAGE = "es-ES";
 	
+	/** The Constant SPANISH_LANGUAGE_SHORT. */
+	public static final String SPANISH_LANGUAGE_SHORT = "es";
+	
 	/**
 	 * The Constant START_LINK_PLAIN
 	 */
@@ -156,4 +159,5 @@ public final class Constants {
 	
 	/** The Constant CANONICAL_URI_LANGUAGE_STR. */
 	public static final String CANONICAL_URI_LANGUAGE_STR = "canonicalURILanguageStr";
+		
 }
