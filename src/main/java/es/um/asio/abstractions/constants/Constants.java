@@ -159,5 +159,10 @@ public final class Constants {
 	
 	/** The Constant CANONICAL_URI_LANGUAGE_STR. */
 	public static final String CANONICAL_URI_LANGUAGE_STR = "canonicalURILanguageStr";
-		
+	
+	/** The Constant dateTemplate_yyyy_mm_dd */
+	public static final String DATE_FORMAT_YYYY_MM_DD = "FILTER (strdt(concat(substr(?{0}, 0, 5), \"-\", substr(?{0}, 6, 2), \"-\", substr(?{0}, 9, 2)), xsd:date) {2} \"{1}\"^^xsd:date) . ";
+	
+	/** The Constant dateTemplate_dd_mm_yyyy */
+	public static final String DATE_FORMAT_DD_MM_YYYY = "FILTER (strdt(concat(substr(?{0}, 0, 2), \"-\", substr(?{0}, 3, 2), \"-\", substr(?{0}, 6, 4)), xsd:date) {2} \"{1}\"^^xsd:date) . ";
 }
