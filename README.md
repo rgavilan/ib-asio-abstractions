@@ -15,6 +15,10 @@
 
 # ASIO - Abstractions
 
+|              | Master                                                       |
+| ------------ | ------------------------------------------------------------ |
+| Quality Gate | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=HerculesCRUE_ib-asio-abstractions&metric=alert_status)](https://sonarcloud.io/dashboard?id=HerculesCRUE_ib-asio-abstractions) |
+
 Definición de clases y constantes comunes a compartir entre todos los proyectos ASIO
 
 ## OnBoarding
