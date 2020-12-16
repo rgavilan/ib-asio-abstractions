@@ -15,5 +15,9 @@ public enum Operation {
     /**
      * Delete operation
      */
-    DELETE
+    DELETE,
+    /**
+     * Insert nested objects
+     */
+    LINKED_INSERT
 }

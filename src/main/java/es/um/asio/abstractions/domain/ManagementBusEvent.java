@@ -1,6 +1,7 @@
 package es.um.asio.abstractions.domain;
 
-import es.um.asio.abstractions.domain.Operation;
+import java.io.Serializable;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,11 +13,15 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class ManagementBusEvent {
+public class ManagementBusEvent implements Serializable{
+
+	private static final long serialVersionUID = -1566782793224542923L;
 
 	private String idModel;
 	
 	private String model;
+	
+	private Object linkedModel;
 	
 	private String className;
 		

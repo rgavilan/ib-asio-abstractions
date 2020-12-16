@@ -19,5 +19,9 @@ public enum JobType {
      * Cvn job type.
      */
     CVN, 
+    /** 
+     * OAIPMH job type. 
+     */
+    OAIPMH,
     
 }
