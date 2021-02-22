@@ -57,4 +57,4 @@ jobs:
       - name: Build with Maven
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: mvn -s ./.ci/settings.xml -B clean deploy javadoc:jar source:jar -DaltDeploymentRepository='github::default::https://maven.pkg.github.com/rgavilan/ib-asio-abstractions'
+        run: mvn -s ./.ci/settings.xml -B clean deploy javadoc:jar source:jar -DaltDeploymentRepository='github::default::https://maven.pkg.github.com/HerculesCRUE/ib-asio-abstractions'
