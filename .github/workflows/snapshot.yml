@@ -56,5 +56,6 @@ jobs:
           mvn -B versions:set -DnewVersion=${newVersion} -DgenerateBackupPoms=false
       - name: Build with Maven
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ secrets.PERSONAL_GITHUB_USER }}
+          GITHUB_USER_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
         run: mvn -s ./.ci/settings.xml -B clean deploy javadoc:jar source:jar -DaltDeploymentRepository='github::default::https://maven.pkg.github.com/rgavilan/ib-asio-abstractions'
